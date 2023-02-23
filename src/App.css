@@ -48,8 +48,70 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  background-color: yellowgreen;
 }
 
 .main-wrapper {
   height: 100vh;
+}
+
+.navigation {
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.navigation ul li {
+  margin: 5px 15px;
+}
+
+.mathmags {
+  font-size: 40px;
+}
+
+.home-wrapper {
+  background-color: yellowgreen;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.intro-wrapper {
+  margin-left: 100px;
+  width: 40%;
+  color: rgb(34, 34, 34);
+}
+
+.intro-wrapper p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.intro-wrapper h3 {
+  color: rgb(19, 19, 19);
+  font-size: 25px;
+}
+
+.quote-wrapper {
+  background-color: yellowgreen;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

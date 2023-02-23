@@ -1,12 +1,8 @@
 import './App.css';
-import Calculator from './components/Calculator';
+import MainPage from './screens/MainPage';
 
 function App() {
-  return (
-    <div className="main-wrapper">
-      <Calculator />
-    </div>
-  );
+  return (<MainPage />);
 }
 
 export default App;
