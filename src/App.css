@@ -32,7 +32,7 @@
 
 .result {
   width: 100%;
-  background-color: darkgray;
+  background-color: lightgray;
   display: flex;
   justify-content: end;
   align-items: center;
