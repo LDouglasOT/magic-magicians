@@ -16,7 +16,7 @@ export default function operations(numberOne, numberTwo, operation) {
     try {
       return one.div(two).toString();
     } catch (err) {
-      return "Can't divide by 0.";
+      return 'division by 0  not allowed.';
     }
   }
   if (operation === '%') {
@@ -26,5 +26,5 @@ export default function operations(numberOne, numberTwo, operation) {
       return "Can't find modulo as can't divide by 0.";
     }
   }
-  throw Error(`Unknown operation '${operation}'`);
+  throw Error('Operation not supported');
 }

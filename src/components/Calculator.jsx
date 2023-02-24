@@ -12,7 +12,7 @@ function Calculator() {
     setOperation(result.operation);
   };
   return (
-    <div className="calculator-wrapper">
+    <div data-testid="calculate" className="calculator-wrapper">
       <div className="app">
         <div className="keypad">
           <p className="result">{next || total || 0}</p>
